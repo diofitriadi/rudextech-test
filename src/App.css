@@ -1,0 +1,7 @@
+.apexcharts-gridline {
+  stroke-width: 3px; /* Adjust this value to change the grid lines width */
+}
+
+.apexcharts-tooltip {
+  display: none !important;
+}
