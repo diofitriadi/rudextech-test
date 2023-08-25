@@ -2,7 +2,7 @@ import { dummyProgressData, totalValue } from "../data/progress-bar";
 
 export const VerticalProgressBar = () => {
   return (
-    <div className="flex flex-col  bg-secondary rounded-lg shadow p-4">
+    <div className="flex flex-col  bg-secondary rounded-lg shadow p-4 h-[230px]">
       <div className="flex flex-col mb-7 mt-1 text-base">
         <p>Orders</p>
         <p className="mt-2 text-2xl font-medium text-orange">{totalValue}</p>

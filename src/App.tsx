@@ -6,6 +6,7 @@ import SingleCard from "./components/single-card";
 import { singleCard } from "./data/single-card";
 import { LineChart } from "./components/line-chart";
 import "./App.css";
+import TimelineCard from "./components/timeline-card";
 
 const App = () => {
   return (
@@ -31,9 +32,14 @@ const App = () => {
             ))}
           </div>
           <div className="flex flex-start pt-5 gap-5">
-            <RadialBarChartCard />
+            <div className="flex flex-col gap-5">
+              <RadialBarChartCard />
+              <RadialBarChartCard />
+            </div>
+
             <VerticalProgressBar />
             <LineChart />
+            <TimelineCard />
           </div>
         </main>
       </div>

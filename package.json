@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "@fontsource/inter": "^5.0.8",
+    "@mantine/core": "^6.0.19",
+    "@mantine/hooks": "^6.0.19",
     "@types/recharts": "^1.8.24",
     "apexcharts": "^3.41.1",
     "react": "^18.2.0",
